@@ -1,5 +1,5 @@
 ---
-# 💻 Test Automation Framework | WEB 
+# 💻 Health Survey Form Submission | WEB 
 
 [![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 
@@ -107,17 +107,13 @@ The tests follow a modular and maintainable structure:
 |          |-- FormSubmission
 |               |-- form_submission_test.cy.js
 |     |-- fixtures
-|          |-- example.json
-|     |-- reports
-|          |--videos
-|     |--screenshots
+|          |-- testdata.json
 |     |-- support
 |          |-- pages
 |               |-- ConfirmationPage.js
 |               |-- FormSubmissionPage.js
 |          |-- commands.js
 |          |-- e2e.js
-|     |-- videos
 |-- node_modeules
 |-- cypress.config.js
 |-- package-lock.json
