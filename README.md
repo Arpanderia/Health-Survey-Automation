@@ -111,7 +111,7 @@ Cypress can record a video of the entire test run.This can be particularly usefu
 - **Location**: By default videos are saved in the `cypress/videos` directory.
 
 ###### Test Results Repository
-Maintain a separate repository for the detailed test results, which includes screenshots, videos and test reports. This helps in tracking and reviewing test outcomes over time.
+Maintained a separate repository for the detailed test results, which includes screenshots, videos and test reports. This helps in tracking and reviewing test outcomes over time.
 - **Test Results Repository:**
 Test Results Repo: https://github.com/Arpanderia/Arpanderia-Health-Survey-Automation-TestResults
 
