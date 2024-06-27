@@ -3,7 +3,6 @@
 
 [![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 
-
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![Mochawesome Reports](https://img.shields.io/badge/Mochawesome%20Reports-<COLOR>?style=for-the-badge&logo=mochawesome&logoColor=white)](https://www.npmjs.com/package/cypress-mochawesome-reporter)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions) 
@@ -17,6 +16,7 @@
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Running Tests](#running-tests)
+- [Test Results](#test-results)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Reporting](#reporting)
@@ -96,6 +96,24 @@ The goal of this assessment is to ensure that the Health Survey Form application
   ```bash
   npm run cy:tests:ELECTRON:HEADLESS
   ```
+## Test Results
+
+Cypress generates various artifacts (screenshots and videos) during test runs, which can be useful for debugging and reviewing the test results. This section explains how to access, interpret and manage these test results.
+
+##### Viewing Test Results 
+
+###### Screenshots 
+Cypress takes screenshots automatically when a test fails. These screenshots provide a visual representation of the application at the time of failure.
+- **Location**: By default screenshots are saved in the `cypress/screenshots` directory.
+
+###### Videos
+Cypress can record a video of the entire test run.This can be particularly useful for debugging and for asynchronous review of test runs.
+- **Location**: By default videos are saved in the `cypress/videos` directory.
+
+###### Test Results Repository
+Maintain a separate repository for the detailed test results, which includes screenshots, videos and test reports. This helps in tracking and reviewing test outcomes over time.
+- **Test Results Repository:**
+Test Results Repo: https://github.com/Arpanderia/Arpanderia-Health-Survey-Automation-TestResults
 
 ## 📁 Project Structure
 
