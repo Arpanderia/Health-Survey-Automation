@@ -3,6 +3,7 @@
 
 [![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 
+
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![Mochawesome Reports](https://img.shields.io/badge/Mochawesome%20Reports-<COLOR>?style=for-the-badge&logo=mochawesome&logoColor=white)](https://www.npmjs.com/package/cypress-mochawesome-reporter)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions) 
@@ -111,7 +112,7 @@ Cypress can record a video of the entire test run.This can be particularly usefu
 - **Location**: By default videos are saved in the `cypress/videos` directory.
 
 ###### Test Results Repository
-Maintained a separate repository for the detailed test results, which includes screenshots, videos and test reports. This helps in tracking and reviewing test outcomes over time.
+Maintain a separate repository for the detailed test results, which includes screenshots, videos and test reports. This helps in tracking and reviewing test outcomes over time.
 - **Test Results Repository:**
 Test Results Repo: https://github.com/Arpanderia/Arpanderia-Health-Survey-Automation-TestResults
 
@@ -150,7 +151,7 @@ The tests follow a modular and maintainable structure:
 - Customize `commands.js` and other files in `cypress/support` for reusable commands.
 - `package.json` contains metadata relevent to the project and manages dependencies, scripts, and other configurations:-
     -  Import cypress-grep plugin to enable test case filtering based on grep    pattern
-    -  Import Cypress-xpath plugin for Cypress.io that enhances testing  capabilities by allowing the use of XPath selectors alongside CSS selectors for locating elements in web application during automated testing.
+    -  Used the 'faker' library to generate random test data to ensure           robust testing.
        
 
 ## 📊 Reporting
