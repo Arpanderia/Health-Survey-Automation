@@ -2,7 +2,8 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
 
   env:{
-    application_URL: 'https://docs.google.com/forms/d/e/1FAIpQLScPfEbpaoUu3WVwSDM9wIFX5uo1XQ1xpuHNtP7cF_rkR-o8Zg/viewform'
+    application_URL: 'https://docs.google.com/forms/d/e/1FAIpQLScPfEbpaoUu3WVwSDM9wIFX5uo1XQ1xpuHNtP7cF_rkR-o8Zg/viewform',
+    api_URL: 'https://jsonplaceholder.typicode.com'
   },
    
   //set the default viewport dimensions
@@ -32,6 +33,7 @@ module.exports = defineConfig({
   },
 
   e2e: {
+    testIsolation: false,
     setupNodeEvents(on, _config) {
       // implement node event listeners here
       require('cypress-mochawesome-reporter/plugin')(on);
