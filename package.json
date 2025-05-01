@@ -23,10 +23,11 @@
   "license": "ISC",
   "devDependencies": {
     "@cypress/grep": "^4.0.2",
-    "cypress": "^13.11.0",
-    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress": "^14.3.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.4.1"
+    "@faker-js/faker": "^8.4.1",
+    "chai": "^5.2.0"
   }
 }

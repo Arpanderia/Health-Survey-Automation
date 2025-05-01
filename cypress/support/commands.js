@@ -41,3 +41,9 @@ Cypress.Commands.add('goToApplication', ()=>{
     cy.visit(url)
 })
 
+//Api url 
+Cypress.Commands.add('goToApiurl', ()=>{
+    const url = Cypress.env('api_URL')
+    cy.visit(url)
+})
+
